@@ -1,5 +1,5 @@
 #include "pet.h"
-
+//initializing variables before making changes
 pet :: pet(){
   nameSetter = "";
   ageSetter = 0;
@@ -7,14 +7,14 @@ pet :: pet(){
   weightSetter = 0.0;
 
 }
-
+//setting the variables
 pet :: pet(string name, int age, string type, double weight){
   nameSetter = name;
   ageSetter = age;
   typeSetter = type;
   weightSetter = weight;
 }
-
+//getter/setter methods
 string pet::getName(){
   return nameSetter;
 }
